@@ -35,10 +35,15 @@ LEO-MACOS Shortcut Assistant is a native macOS utility that detects the frontmos
 1. Open the [latest release](https://github.com/leoyoyofiona/LEO-MACOS-Shortcut-Assistant/releases/latest).
 2. Download the `.dmg` (recommended) or `.zip`.
 3. Drag `LEO-MACOS快捷键助手.app` into Applications.
-4. On first launch, grant Accessibility and Input Monitoring access when prompted.
+4. If macOS blocks the first launch, open System Settings → Privacy & Security and click **Open Anyway**.
+5. Grant Accessibility and Input Monitoring access, then relaunch the app.
+
+![First-launch guide](docs/images/install-guide-en.svg)
+
+**First time installing? Read the [complete illustrated installation guide](docs/INSTALL_EN.md).**
 
 > [!IMPORTANT]
-> This community preview is not notarized with Apple Developer ID yet. If macOS blocks the first launch, Control-click the app in Finder, choose **Open**, then confirm **Open**. Do not disable Gatekeeper.
+> This community preview is not notarized with Apple Developer ID yet. First launch requires a one-time manual approval; future launches work with a normal double-click. Do not disable Gatekeeper.
 
 ### Build from source
 
