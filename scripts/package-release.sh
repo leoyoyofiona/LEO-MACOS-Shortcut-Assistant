@@ -26,5 +26,5 @@ hdiutil create \
     "$RELEASE_DIR/$ASCII_NAME.dmg" >/dev/null
 rm -rf "$STAGING_DIR"
 
-shasum -a 256 "$RELEASE_DIR/$ASCII_NAME.zip" "$RELEASE_DIR/$ASCII_NAME.dmg" > "$RELEASE_DIR/SHA256SUMS.txt"
+(cd "$RELEASE_DIR" && shasum -a 256 "$ASCII_NAME.zip" "$ASCII_NAME.dmg" > SHA256SUMS.txt)
 ls -lh "$RELEASE_DIR"
